@@ -1,3 +1,11 @@
+<script src="//code.jquery.com/jquery-1.10.2.js"></script>
+<script> 
+$(function(){
+  $("#header").load("../header.html"); 
+  $("#footer").load("../footer.html"); 
+});
+</script> 
+
 <head>
     <title>Ana Sathish</title>
     <meta charset="utf-8" />
@@ -5,19 +13,9 @@
     <link rel="stylesheet" href="../assets/css/main.css" />
 </head>
 <body class="is-preload">
-<!-- Nav -->
-<nav id="nav">
-    <ul class="container">
-        <li><a href="../index.html">Home</a></li>
-        <li><a href="#contact">Contact</a></li>
-        <li><a href="explore.html">Microsoft</a></li>
-        <li><a href="sephora.html">Sephora</a></li>
-        <li><a href="alameda.html">Alameda County</a></li>
-        <li><a href="insite.html">INsite Lab</a></li>
-        <li><a href="appjam.html">Dreams For Schools</a></li>
-        <!-- <li><a href="#portfolio">Portfolio</a></li> -->
-    </ul>
-</nav>
+<!--Nav-->
+<div id="header"></div>
+
 <article id="top" class="wrapper style1">
     <div class="container">
         <div class="row">
@@ -33,7 +31,6 @@
                     The application consolidated data stored in Sephora's databases regarding the throughput of products in the supply chain, making
                     it easier to optimize the rate of production at the centers.
                 </p>
-                <!-- <a href="#work" class="button large scrolly">Learn about what I do</a> -->
             </div>
         </div>
     </div>
@@ -49,22 +46,5 @@
     </div>
 </article>
 <!-- Contact -->
-<article id="contact" class="wrapper style4">
-    <div class="container medium">
-        <header>
-            <h2>Let's Connect!</h2>
-        </header>
-        <div class="col-4 col-6-medium col-12-small">
-            <ul class="social">
-                <li><a href="https://twitter.com/AnaSat07" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-                <li><a href="https://www.linkedin.com/in/anasathish/" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-                <li><a href="https://github.com/AnaSathish" class="icon brands fa-github"><span class="label">Github</span></a></li>
-            </ul>
-        </div>
-        <footer>
-            <ul id="copyright">
-                <li>&copy; Nandhana Sathish. All rights reserved.</li>
-            </ul>
-        </footer>
-    </div>
-</article>
+<div id="footer"></div>
+
