@@ -2449,3 +2449,13 @@ img {
 	width: "50%";
 	height: "60%";
 }
+
+.typewriter {
+	overflow-wrap: normal;
+	font-family: 'Courier New', Courier, monospace;
+}
+
+/* Cursor */
+.txt-type > .txt {
+	border-right: 0.2rem solid #777;
+  }
